@@ -1,0 +1,137 @@
+.form-row
+{
+	padding: 10px 0;
+	display: flex;
+	color: red;
+}
+.container
+{   
+	background-color: #E1F5FE;
+}
+.form-row label
+{
+    padding-right: 5px;
+    flex: 1;
+}
+.form-row input
+{ 
+   flex: 3;
+   background-color: lightblue;
+}
+.column-layout
+{
+	max-width:1500px;
+	margin: 40px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	display: flex;
+	background-color: #E1F5FE;
+}
+.main-column
+{
+    flex: 5;
+    color: #ff0266;
+    order: 3;
+}
+.sidebar-one
+{ 
+    flex: 4;
+    color: #0336ff;
+    order: 2;
+}
+.sidebar-two
+{ color: #ffde03;
+    flex: 2;
+    order: 1;
+}
+.call-outs-container
+{
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+   }
+.call-out
+{	margin-bottom: 20px;
+	box-sizing: border-box;
+	flex-basis:30%;
+
+
+}
+@media(min-width: 1000px)
+{
+	.call-outs-container
+	{
+		 display: flex;
+         justify-content: space-between;
+
+	}
+}
+ .call-out:nth-child(1){background-color: #FF1744;}
+ .call-out:nth-child(2){background-color: #FF5252;}
+ .call-out:nth-child(3){background-color: #FF8A80;}
+
+ .flex-container
+ {
+ 	max-width: 1400px;
+ 	margin: 40px auto 0 auto;
+ 	background-color: #fff;
+ 	padding: 30px 0;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+ }
+ .fixed-size
+ {
+ 	width: 150px;
+ 	height: 100px;
+ 	background-color: #990b47;
+ 	color: #fff;
+ 	line-height: 100px;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-size: 60px;
+ 	margin-bottom: 20px;
+ }
+ .center-board
+ {
+ 	height: 400px;
+ 	max-width: 700px;
+ 	margin: 40px auto 40px auto;
+ 	background-color:#2a2a2a; 
+ 	display: flex;
+ }
+ .center-me
+ {
+ 	color: #fff;
+ 	font-size: 50px;
+ 	margin: auto;
+ }
+ .equal-height-container
+ {
+ 	max-width:900px;
+ 	margin:0 auto;
+ 	display: flex;
+ }
+ .first
+ {
+ 	background-color: #fff;
+    padding: 20px;
+    flex: 1;
+ }
+ .second
+ {
+     background-color: yellow;
+     flex: 1;  
+     display: flex;
+     flex-direction: column;
+ }
+ .second-a
+ {
+ 	background-color: #c0dbe2;
+ 	flex: 1;
+ }
+ .second-b;
+{    
+	background-color: #cdf1c3;  
+	flex: 1;
+}
